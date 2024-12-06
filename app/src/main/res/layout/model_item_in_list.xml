@@ -1,0 +1,8 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" tools:layout_editor_absoluteX="1dp" tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+        <TextView android:id="@+id/id_lab" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center_horizontal" android:textColor="#3F51B5" android:textSize="16sp"/>
+        <TextView android:id="@+id/nom_lab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center_horizontal" android:textColor="#3F51B5" android:textSize="16sp"/>
+        <TextView android:id="@+id/quantite_lab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center_horizontal" android:textColor="#3F51B5" android:textSize="16sp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
